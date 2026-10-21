@@ -3,7 +3,7 @@
   "name": "font-search",
   "title": "Font Search",
   "description": "Search locally installed fonts, as displayed in font book.",
-  "icon": "extension-icon.png",
+  "icon": "assets/extension-icon.png",
   "author": "almatkai",
   "preferences": [
     {

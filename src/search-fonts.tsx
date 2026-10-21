@@ -12,12 +12,12 @@ import {
   Keyboard,
 } from "@raycast/api";
 import { useCachedPromise } from "@raycast/utils";
-import { promisify } from "node:util";
-import { exec } from "node:child_process";
+import { promises as fs } from "node:fs";
+import { homedir } from "node:os";
+import path from "node:path";
 import { createFontPreviewSVG } from "./fontPreview";
 import { sortWeights } from "./utils";
 
-const execAsync = promisify(exec);
 const cache = new Cache();
 const CACHE_KEY = "installedFonts";
 const PINNED_FONTS_KEY = "pinnedFonts";
@@ -35,15 +35,28 @@ interface Preferences {
   previewText: string;
 }
 
-interface FontFile {
-  path: string;
-  typefaces: Typeface[];
-}
+const FONT_EXTENSIONS = new Set([".ttf", ".otf", ".ttc", ".woff", ".woff2"]);
 
-interface Typeface {
-  family: string;
-  style: string;
-  _name: string;
+async function collectFontFiles(root: string, systemRoot: boolean): Promise<Font[]> {
+  const fonts: Font[] = [];
+  const pending = [root];
+  while (pending.length > 0) {
+    const directory = pending.pop();
+    if (!directory) continue;
+    try {
+      for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
+        const fullPath = path.join(directory, entry.name);
+        if (entry.isDirectory()) pending.push(fullPath);
+        else if (FONT_EXTENSIONS.has(path.extname(entry.name).toLowerCase())) {
+          const name = path.basename(entry.name, path.extname(entry.name)).replace(/[-_]+/g, " ");
+          fonts.push({ name, path: fullPath, isSystem: systemRoot, styles: ["Regular"], postScriptNames: [name] });
+        }
+      }
+    } catch {
+      // Missing or protected font directories are skipped.
+    }
+  }
+  return fonts;
 }
 
 async function getFonts(): Promise<Font[]> {
@@ -53,35 +66,21 @@ async function getFonts(): Promise<Font[]> {
   }
 
   try {
-    const { stdout } = await execAsync("/usr/sbin/system_profiler SPFontsDataType -json", {
-      maxBuffer: 1024 * 1024 * 10, // 10 MB buffer
-    });
-    const fontData: FontFile[] = JSON.parse(stdout).SPFontsDataType;
-
+    const userHome = homedir();
+    const roots =
+      process.platform === "win32"
+        ? [
+            { path: path.join(process.env.WINDIR ?? "C:\\Windows", "Fonts"), system: true },
+            { path: path.join(process.env.LOCALAPPDATA ?? path.join(userHome, "AppData", "Local"), "Microsoft", "Windows", "Fonts"), system: false },
+          ]
+        : [
+            { path: "/System/Library/Fonts", system: true },
+            { path: "/Library/Fonts", system: true },
+            { path: path.join(userHome, "Library", "Fonts"), system: false },
+          ];
+    const fontData = (await Promise.all(roots.map((root) => collectFontFiles(root.path, root.system)))).flat();
     const fontMap = new Map<string, Font>();
-
-    fontData.forEach((fontFile: FontFile) => {
-      fontFile.typefaces.forEach((typeface: Typeface) => {
-        const fontName = typeface.family;
-        if (!fontMap.has(fontName)) {
-          fontMap.set(fontName, {
-            name: fontName,
-            path: fontFile.path,
-            isSystem: fontFile.path.startsWith("/System"),
-            styles: [typeface.style],
-            postScriptNames: [typeface._name],
-          });
-        } else {
-          const font = fontMap.get(fontName)!;
-          if (!font.styles.includes(typeface.style)) {
-            font.styles.push(typeface.style);
-          }
-          if (!font.postScriptNames.includes(typeface._name)) {
-            font.postScriptNames.push(typeface._name);
-          }
-        }
-      });
-    });
+    for (const font of fontData) if (!fontMap.has(font.name)) fontMap.set(font.name, font);
 
     const fonts = Array.from(fontMap.values())
       .filter((font) => !font.name.startsWith("."))
