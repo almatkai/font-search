@@ -1,0 +1,18 @@
+{
+  "checks": 16,
+  "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+  "patchAppliedTo": "owned .qa copies only",
+  "actual": [
+    "ListRuntime",
+    "Markdown (marked + DOMPurify)",
+    "ExtensionRuntimeView",
+    "ExtensionRuntimeSurface"
+  ],
+  "stubs": [
+    "unrelated Form/Grid/Detail components",
+    "desktop services",
+    "refresh scheduler",
+    "decorative primitives"
+  ],
+  "fontOrImageOSAPIs": "not invoked; JSDOM resource loading disabled"
+}

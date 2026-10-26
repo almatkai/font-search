@@ -1,0 +1,19 @@
+Font Search external Rust development package
+Source: https://github.com/almatkai/font-search
+Portable V1 source: f52afb19ac55199fa4ecbe2c3d94f82a831cb2ca (MIT).
+The original LICENSE bytes, including literal backslash-n sequences, are preserved
+at licenses/portable-v1-LICENSE.original.txt. Package LICENSE expands those escapes
+to line breaks without changing the grant wording.
+
+The original icon is from Raycast/extensions at
+6734d85992290066fd31a7f5bee3cca3d3545a1a, extensions/font-search/assets/extension-icon.png.
+SHA256 729724bc2c33449f14680faf1a38268eea1b5053d335186a9c94366bfc8ac263
+Its authentic repository MIT license is included at licenses/raycast-extensions-MIT.txt.
+
+tezbar-extension-sdk 0.1.1 is pinned to HTTPS git revision
+e955911f0bf5b558f9d3eb5183df0adc95c22af2 (Apache-2.0); its NOTICE is included.
+Authentic runtime dependency grants are under licenses/cargo/.
+Source-only QA dependencies and target-inapplicable dependencies are identified in
+licenses/dependencies.json; they are not bundled into the production executable.
+Generated QA fonts use new geometric outlines and inherit the repository MIT grant.
+No installed system/user/commercial font files are distributed.

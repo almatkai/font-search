@@ -1,0 +1,189 @@
+{
+  "sourceCommit": "f52afb19ac55199fa4ecbe2c3d94f82a831cb2ca",
+  "sdkCommit": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+  "hostCommit": "ea100cee3f69711de12485ba061950c5fc65258f",
+  "gates": [
+    {
+      "name": "prepare",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/prepare.log"
+    },
+    {
+      "name": "npm-v1",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/npm-v1.log"
+    },
+    {
+      "name": "v1-test",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/v1-test.log"
+    },
+    {
+      "name": "v1-typecheck",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/v1-typecheck.log"
+    },
+    {
+      "name": "npm-qa",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/npm-qa.log"
+    },
+    {
+      "name": "pip-qa",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/pip-qa.log"
+    },
+    {
+      "name": "generate-fonts",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/generate-fonts.log"
+    },
+    {
+      "name": "oracle",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/oracle.log"
+    },
+    {
+      "name": "host-contracts",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/host-contracts.log"
+    },
+    {
+      "name": "host-patch",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/host-patch.log"
+    },
+    {
+      "name": "host-patch-check",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/host-patch-check.log"
+    },
+    {
+      "name": "renderer",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/renderer.log"
+    },
+    {
+      "name": "schema",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/schema.log"
+    },
+    {
+      "name": "stable-fmt",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/stable-fmt.log"
+    },
+    {
+      "name": "stable-test",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/stable-test.log"
+    },
+    {
+      "name": "stable-clippy",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/stable-clippy.log"
+    },
+    {
+      "name": "1.85.0-fmt",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/1.85.0-fmt.log"
+    },
+    {
+      "name": "1.85.0-test",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/1.85.0-test.log"
+    },
+    {
+      "name": "1.85.0-clippy",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/1.85.0-clippy.log"
+    },
+    {
+      "name": "windows-stable-check",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/windows-stable-check.log"
+    },
+    {
+      "name": "windows-stable-clippy",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/windows-stable-clippy.log"
+    },
+    {
+      "name": "windows-1.85.0-check",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/windows-1.85.0-check.log"
+    },
+    {
+      "name": "windows-1.85.0-clippy",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/windows-1.85.0-clippy.log"
+    },
+    {
+      "name": "build-debug",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/build-debug.log"
+    },
+    {
+      "name": "previews",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/previews.log"
+    },
+    {
+      "name": "notices",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/notices.log"
+    },
+    {
+      "name": "fresh-build",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/fresh-build.log"
+    },
+    {
+      "name": "package",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/package.log"
+    },
+    {
+      "name": "process",
+      "state": "passed",
+      "exitCode": 0,
+      "log": ".qa/process.log"
+    }
+  ],
+  "passed": 29,
+  "nativeFontDiscovery": "not-run",
+  "macOSGUI": "not-run",
+  "WindowsGUI": "not-run",
+  "WindowsGNUCheckAndClippy": "passed on stable and 1.85.0",
+  "WindowsMSVC": "not-run (target not installed)",
+  "WindowsLink": "not-run (MinGW C compiler/dlltool not installed)",
+  "acceptedRelease": false
+}

@@ -1,0 +1,119 @@
+{
+  "host/docs/EXTERNAL_RUST_EXTENSIONS.md": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "56da4ce632e1362ad56c380fa6d706a1f455ea44b67cd473b0b3eb216a9d5610"
+  },
+  "host/schemas/extension-v3.schema.json": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "6f42f0316aa88097703496e828b11afcc7caecf8477fa7502df903c3ad2a8048"
+  },
+  "host/src-tauri/src/native_core/extensions/mod.rs": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "bdeeaf79c655af88912a10db2c13114890b1ca95fbeb84a874d6bf1340c53b8b"
+  },
+  "host/src-tauri/src/native_core/extensions/native.rs": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "f11d1f436fa5f9b045a7ac25f3516adb0efc6d4c12ce1f0f0c4768940fafe16f"
+  },
+  "host/src-tauri/src/native_core/extensions/process.rs": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "eb51da47a912c2a364eff16874b584ee0a2a4b571968ac17fd5056715a2c3d18"
+  },
+  "host/src-tauri/src/native_core/extensions/process_host.rs": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "daf45815d76762323c6c1320c88ed24dfe28160a60bb4974b8073e3f17a3b982"
+  },
+  "host/src-tauri/src/native_core/extensions/registry.rs": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "05dd5d9c5fafbac3034e9ba5e101e345a5d3bb658a49d22696e59ea924530e66"
+  },
+  "host/src-tauri/src/native_core/launcher/clipboard.rs": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "8af5b882e06c9025d09a71b46b2f36c3e2a41513cd44fd2d0f945c58c9aa8d7d"
+  },
+  "host/src-tauri/src/native_core/platform.rs": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "33e6b7ec5b305ee3ffb857985d0483e54891998ff2a51c10f12695b80a1953e6"
+  },
+  "host/src/renderer/ExtensionRuntimeView.tsx": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "c8378d1a1cc91cf622f81dc1bd88ed986ea2e9c396f7ff497e649171f573c5e8"
+  },
+  "host/src/renderer/colorConverter.ts": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "3ed3ae957716fe53918b20ed7c723088d7b95b4533beb1fd18fd9d7ad421202e"
+  },
+  "host/src/renderer/src/raycast-api/detail-runtime.tsx": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c"
+  },
+  "host/src/renderer/src/raycast-api/index.tsx": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64"
+  },
+  "host/src/renderer/src/raycast-api/list-runtime.tsx": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f"
+  },
+  "host/src/renderer/tauri-bridge.ts": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "a6d454fb3c39081ea18dd745cd856519682b089464aa043ecd778d39cb22bab9"
+  },
+  "host/src/renderer/ui/Markdown.tsx": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "d205312b35293a433d5398e4edf1dcc96662cacd34036e8ee3ec503f65eee2de"
+  },
+  "host/src/renderer/ui/primitives.tsx": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "0bcedb2a1158a00ae7d4237f6ee875a58d9496e8576fb72ac78b79af82365044"
+  },
+  "host/src/shared/extensionRuntime.ts": {
+    "revision": "ea100cee3f69711de12485ba061950c5fc65258f",
+    "sha256": "47a290032a9967e2dee5142030b4ef8cfc5237a79521aa535f8a12d8c16deda4"
+  },
+  "icon": {
+    "bytes": 90005,
+    "sha256": "729724bc2c33449f14680faf1a38268eea1b5053d335186a9c94366bfc8ac263",
+    "url": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/font-search/assets/extension-icon.png"
+  },
+  "sdk/Cargo.toml": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "f3f6c5a49f92dced2ff7b8ea9c5942d826a8a6c3cdade67f62003ded86b506dd"
+  },
+  "sdk/HOST_INTEGRATION.md": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "88e6ca0c1090bcdf5d5501583e52e3eb7b0a369f4fea17ce4b01616c2f69d9a8"
+  },
+  "sdk/LICENSE": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+  },
+  "sdk/NOTICE": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "aa04ab6115cfc2e2172b0613013611a59dc487c70f3e2dfbd2f135326d703c74"
+  },
+  "sdk/PROTOCOL.md": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "0bc474c2e79e6e3f46ad2d577f83144ad69bd87cb17b74600a17178bcc257371"
+  },
+  "sdk/SDK_API.md": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "73945c65d763a82ee1bd64b2f30418f8aaec2e75966d71d7b774e7f7e40f098e"
+  },
+  "sdk/src/context.rs": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "9d8498bf3799690703c0a4e70fed2c9356850cc0c4e35370104fd09898c09efa"
+  },
+  "sdk/src/lib.rs": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "7ffb2da74cfcf91f428453cf90594baa79b21251b7df77756348e0acda79cd16"
+  },
+  "sdk/src/runner.rs": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "975350f717db0a3bf9cac11e9efd733719d2148544c2e38d82758c92a0a88053"
+  },
+  "sdk/src/storage.rs": {
+    "revision": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+    "sha256": "6cbb7018c8e090fb801afd6410fc1275d18cec195d7d1b59d7138dce5d4f999a"
+  }
+}

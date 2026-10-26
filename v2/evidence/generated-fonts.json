@@ -1,0 +1,13 @@
+{
+  "generator": "qa/generate_fonts.py",
+  "grant": "Repository MIT LICENSE; wholly new geometric outlines, no source fonts",
+  "files": {
+    "decoded-woff.ttf": "aca566e2bc61346216c67548cb86a25a5aa82f95064d34c81a9393dbc9a9ae2c",
+    "decoded-woff2.ttf": "675167fc81b0d3e43c9e84cee28bb79a138fc9ad9e31fb87d38a670d4e83e86c",
+    "fixture.otf": "b2090a1eb42fc682cc67c9c4b9d99b238a6ab6eac706e437c428806d47a6ac32",
+    "fixture.ttc": "1d179161f05872d6f7600888e51ca024d854f991e117a3d790720a449feb913e",
+    "fixture.ttf": "aca566e2bc61346216c67548cb86a25a5aa82f95064d34c81a9393dbc9a9ae2c",
+    "fixture.woff": "fd06f9aad0904fa9ea0a6d36da3ee9ebcdc831d54830a84feedda3d90241cb0c",
+    "fixture.woff2": "7eb82e9a5c68830105bde56544b54c0ebd365fd0659b7f5cba16bcaef9d2c3eb"
+  }
+}

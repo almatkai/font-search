@@ -1,0 +1,447 @@
+{
+  "darwin": {
+    "fonts": [
+      {
+        "name": "A B",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/A---__B.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "A B"
+        ]
+      },
+      {
+        "name": "Alpha Regular",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/Alpha_Regular.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Alpha Regular"
+        ]
+      },
+      {
+        "name": "bad",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/bad.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "bad"
+        ]
+      },
+      {
+        "name": "Beta",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-b/Beta.woff",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Beta"
+        ]
+      },
+      {
+        "name": "Collection",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/Collection.ttc",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Collection"
+        ]
+      },
+      {
+        "name": "digits 10",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/digits-10.TTF",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "digits 10"
+        ]
+      },
+      {
+        "name": "Digits 2",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/Digits-2.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Digits 2"
+        ]
+      },
+      {
+        "name": "éclair",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/éclair.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "éclair"
+        ]
+      },
+      {
+        "name": "Éclair",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/Éclair.otf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Éclair"
+        ]
+      },
+      {
+        "name": "Nested A",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/nested-a/Nested-A.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Nested A"
+        ]
+      },
+      {
+        "name": "Nested Z",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/nested-z/Nested-Z.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Nested Z"
+        ]
+      },
+      {
+        "name": "QA Specimen",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/QA-Specimen.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "QA Specimen"
+        ]
+      },
+      {
+        "name": "user font",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/user_font.woff2",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "user font"
+        ]
+      },
+      {
+        "name": "日本語",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/日本語.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "日本語"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.CopyToClipboard",
+        "title": "Copy Font Name",
+        "content": "A B"
+      },
+      {
+        "type": "Action.ShowInFinder",
+        "path": "/System/Library/Fonts/A---__B.ttf"
+      },
+      {
+        "type": "Action.Push",
+        "title": "Show PostScript Names",
+        "shortcut": {
+          "modifiers": [
+            "cmd"
+          ],
+          "key": "n"
+        }
+      },
+      {
+        "type": "Action",
+        "title": "Pin Font",
+        "shortcut": {
+          "modifiers": [
+            "cmd",
+            "shift"
+          ],
+          "key": "p"
+        }
+      },
+      {
+        "type": "Action",
+        "title": "Reload Font List"
+      }
+    ],
+    "labels": [
+      [
+        "Type",
+        "System Font"
+      ],
+      [
+        "Path",
+        "[scoped font path]"
+      ],
+      [
+        "Styles",
+        "Regular"
+      ],
+      [
+        "Pinned",
+        "No"
+      ]
+    ],
+    "svg": "\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"300\">\n      <style>\n        text {\n          font-size: 24px;\n          fill: #eeeeee;\n          filter: saturate(0);\n        }\n      </style>\n      <text font-family=\"A B\" x=\"10\" y=\"70\">Sphinx of black quartz, judge my vow.</text>\n      <text font-family=\"A B\" x=\"10\" y=\"120\">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>\n      <text font-family=\"A B\" x=\"10\" y=\"170\">abcdefghijklmnopqrstuvwxyz</text>\n      <text font-family=\"A B\" x=\"10\" y=\"220\">0123456789!@#$%^()_+-={}[]:;</text>\n    </svg>\n  ",
+    "previews": [
+      {
+        "text": "Sphinx of black quartz, judge my vow.",
+        "markdown": "![Font preview](data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIzMDAiPgogICAgICA8c3R5bGU+CiAgICAgICAgdGV4dCB7CiAgICAgICAgICBmb250LXNpemU6IDI0cHg7CiAgICAgICAgICBmaWxsOiAjZWVlZWVlOwogICAgICAgICAgZmlsdGVyOiBzYXR1cmF0ZSgwKTsKICAgICAgICB9CiAgICAgIDwvc3R5bGU+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjcwIj5TcGhpbnggb2YgYmxhY2sgcXVhcnR6LCBqdWRnZSBteSB2b3cuPC90ZXh0PgogICAgICA8dGV4dCBmb250LWZhbWlseT0iUUEgU3BlY2ltZW4iIHg9IjEwIiB5PSIxMjAiPkFCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaPC90ZXh0PgogICAgICA8dGV4dCBmb250LWZhbWlseT0iUUEgU3BlY2ltZW4iIHg9IjEwIiB5PSIxNzAiPmFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6PC90ZXh0PgogICAgICA8dGV4dCBmb250LWZhbWlseT0iUUEgU3BlY2ltZW4iIHg9IjEwIiB5PSIyMjAiPjAxMjM0NTY3ODkhQCMkJV4oKV8rLT17fVtdOjs8L3RleHQ+CiAgICA8L3N2Zz4KICA=)"
+      },
+      {
+        "text": "Unicode é Å 一",
+        "markdown": "![Font preview](data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIzMDAiPgogICAgICA8c3R5bGU+CiAgICAgICAgdGV4dCB7CiAgICAgICAgICBmb250LXNpemU6IDI0cHg7CiAgICAgICAgICBmaWxsOiAjZWVlZWVlOwogICAgICAgICAgZmlsdGVyOiBzYXR1cmF0ZSgwKTsKICAgICAgICB9CiAgICAgIDwvc3R5bGU+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjcwIj5Vbmljb2RlIMOpIMOFIOS4gDwvdGV4dD4KICAgICAgPHRleHQgZm9udC1mYW1pbHk9IlFBIFNwZWNpbWVuIiB4PSIxMCIgeT0iMTIwIj5BQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWjwvdGV4dD4KICAgICAgPHRleHQgZm9udC1mYW1pbHk9IlFBIFNwZWNpbWVuIiB4PSIxMCIgeT0iMTcwIj5hYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejwvdGV4dD4KICAgICAgPHRleHQgZm9udC1mYW1pbHk9IlFBIFNwZWNpbWVuIiB4PSIxMCIgeT0iMjIwIj4wMTIzNDU2Nzg5IUAjJCVeKClfKy09e31bXTo7PC90ZXh0PgogICAgPC9zdmc+CiAg)"
+      },
+      {
+        "text": "Different specimen",
+        "markdown": "![Font preview](data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIzMDAiPgogICAgICA8c3R5bGU+CiAgICAgICAgdGV4dCB7CiAgICAgICAgICBmb250LXNpemU6IDI0cHg7CiAgICAgICAgICBmaWxsOiAjZWVlZWVlOwogICAgICAgICAgZmlsdGVyOiBzYXR1cmF0ZSgwKTsKICAgICAgICB9CiAgICAgIDwvc3R5bGU+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjcwIj5EaWZmZXJlbnQgc3BlY2ltZW48L3RleHQ+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjEyMCI+QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVo8L3RleHQ+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjE3MCI+YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXo8L3RleHQ+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjIyMCI+MDEyMzQ1Njc4OSFAIyQlXigpXystPXt9W106OzwvdGV4dD4KICAgIDwvc3ZnPgogIA==)"
+      }
+    ],
+    "checks": 46
+  },
+  "win32": {
+    "fonts": [
+      {
+        "name": "A B",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/A---__B.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "A B"
+        ]
+      },
+      {
+        "name": "Alpha Regular",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/Alpha_Regular.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Alpha Regular"
+        ]
+      },
+      {
+        "name": "bad",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/bad.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "bad"
+        ]
+      },
+      {
+        "name": "Collection",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/Collection.ttc",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Collection"
+        ]
+      },
+      {
+        "name": "digits 10",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/digits-10.TTF",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "digits 10"
+        ]
+      },
+      {
+        "name": "Digits 2",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/Digits-2.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Digits 2"
+        ]
+      },
+      {
+        "name": "éclair",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/éclair.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "éclair"
+        ]
+      },
+      {
+        "name": "Éclair",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/Éclair.otf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Éclair"
+        ]
+      },
+      {
+        "name": "Nested A",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/nested-a/Nested-A.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Nested A"
+        ]
+      },
+      {
+        "name": "Nested Z",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/nested-z/Nested-Z.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "Nested Z"
+        ]
+      },
+      {
+        "name": "QA Specimen",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/system-a/QA-Specimen.ttf",
+        "isSystem": true,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "QA Specimen"
+        ]
+      },
+      {
+        "name": "user font",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/user_font.woff2",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "user font"
+        ]
+      },
+      {
+        "name": "日本語",
+        "path": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search/v2/.qa/fonts/user/日本語.ttf",
+        "isSystem": false,
+        "styles": [
+          "Regular"
+        ],
+        "postScriptNames": [
+          "日本語"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.CopyToClipboard",
+        "title": "Copy Font Name",
+        "content": "A B"
+      },
+      {
+        "type": "Action.ShowInFinder",
+        "path": "C:\\OwnedWindows\\Fonts\\A---__B.ttf"
+      },
+      {
+        "type": "Action.Push",
+        "title": "Show PostScript Names",
+        "shortcut": {
+          "modifiers": [
+            "cmd"
+          ],
+          "key": "n"
+        }
+      },
+      {
+        "type": "Action",
+        "title": "Pin Font",
+        "shortcut": {
+          "modifiers": [
+            "cmd",
+            "shift"
+          ],
+          "key": "p"
+        }
+      },
+      {
+        "type": "Action",
+        "title": "Reload Font List"
+      }
+    ],
+    "labels": [
+      [
+        "Type",
+        "System Font"
+      ],
+      [
+        "Path",
+        "[scoped font path]"
+      ],
+      [
+        "Styles",
+        "Regular"
+      ],
+      [
+        "Pinned",
+        "No"
+      ]
+    ],
+    "svg": "\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"300\">\n      <style>\n        text {\n          font-size: 24px;\n          fill: #eeeeee;\n          filter: saturate(0);\n        }\n      </style>\n      <text font-family=\"A B\" x=\"10\" y=\"70\">Sphinx of black quartz, judge my vow.</text>\n      <text font-family=\"A B\" x=\"10\" y=\"120\">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>\n      <text font-family=\"A B\" x=\"10\" y=\"170\">abcdefghijklmnopqrstuvwxyz</text>\n      <text font-family=\"A B\" x=\"10\" y=\"220\">0123456789!@#$%^()_+-={}[]:;</text>\n    </svg>\n  ",
+    "previews": [
+      {
+        "text": "Sphinx of black quartz, judge my vow.",
+        "markdown": "![Font preview](data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIzMDAiPgogICAgICA8c3R5bGU+CiAgICAgICAgdGV4dCB7CiAgICAgICAgICBmb250LXNpemU6IDI0cHg7CiAgICAgICAgICBmaWxsOiAjZWVlZWVlOwogICAgICAgICAgZmlsdGVyOiBzYXR1cmF0ZSgwKTsKICAgICAgICB9CiAgICAgIDwvc3R5bGU+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjcwIj5TcGhpbnggb2YgYmxhY2sgcXVhcnR6LCBqdWRnZSBteSB2b3cuPC90ZXh0PgogICAgICA8dGV4dCBmb250LWZhbWlseT0iUUEgU3BlY2ltZW4iIHg9IjEwIiB5PSIxMjAiPkFCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaPC90ZXh0PgogICAgICA8dGV4dCBmb250LWZhbWlseT0iUUEgU3BlY2ltZW4iIHg9IjEwIiB5PSIxNzAiPmFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6PC90ZXh0PgogICAgICA8dGV4dCBmb250LWZhbWlseT0iUUEgU3BlY2ltZW4iIHg9IjEwIiB5PSIyMjAiPjAxMjM0NTY3ODkhQCMkJV4oKV8rLT17fVtdOjs8L3RleHQ+CiAgICA8L3N2Zz4KICA=)"
+      },
+      {
+        "text": "Unicode é Å 一",
+        "markdown": "![Font preview](data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIzMDAiPgogICAgICA8c3R5bGU+CiAgICAgICAgdGV4dCB7CiAgICAgICAgICBmb250LXNpemU6IDI0cHg7CiAgICAgICAgICBmaWxsOiAjZWVlZWVlOwogICAgICAgICAgZmlsdGVyOiBzYXR1cmF0ZSgwKTsKICAgICAgICB9CiAgICAgIDwvc3R5bGU+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjcwIj5Vbmljb2RlIMOpIMOFIOS4gDwvdGV4dD4KICAgICAgPHRleHQgZm9udC1mYW1pbHk9IlFBIFNwZWNpbWVuIiB4PSIxMCIgeT0iMTIwIj5BQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWjwvdGV4dD4KICAgICAgPHRleHQgZm9udC1mYW1pbHk9IlFBIFNwZWNpbWVuIiB4PSIxMCIgeT0iMTcwIj5hYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejwvdGV4dD4KICAgICAgPHRleHQgZm9udC1mYW1pbHk9IlFBIFNwZWNpbWVuIiB4PSIxMCIgeT0iMjIwIj4wMTIzNDU2Nzg5IUAjJCVeKClfKy09e31bXTo7PC90ZXh0PgogICAgPC9zdmc+CiAg)"
+      },
+      {
+        "text": "Different specimen",
+        "markdown": "![Font preview](data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIzMDAiPgogICAgICA8c3R5bGU+CiAgICAgICAgdGV4dCB7CiAgICAgICAgICBmb250LXNpemU6IDI0cHg7CiAgICAgICAgICBmaWxsOiAjZWVlZWVlOwogICAgICAgICAgZmlsdGVyOiBzYXR1cmF0ZSgwKTsKICAgICAgICB9CiAgICAgIDwvc3R5bGU+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjcwIj5EaWZmZXJlbnQgc3BlY2ltZW48L3RleHQ+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjEyMCI+QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVo8L3RleHQ+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjE3MCI+YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXo8L3RleHQ+CiAgICAgIDx0ZXh0IGZvbnQtZmFtaWx5PSJRQSBTcGVjaW1lbiIgeD0iMTAiIHk9IjIyMCI+MDEyMzQ1Njc4OSFAIyQlXigpXystPXt9W106OzwvdGV4dD4KICAgIDwvc3ZnPgogIA==)"
+      }
+    ],
+    "checks": 44
+  }
+}

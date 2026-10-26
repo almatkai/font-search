@@ -1,0 +1,23 @@
+{
+  "root": "/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search",
+  "canonicalPrefix": "ax-9b415502fa8a",
+  "stateDir": ".qa/xerj/ax-9b415502fa8a",
+  "initial": "12 files/62 records; all 6 source files indexed; exit 3 completed-with-junk (binary assets skipped)",
+  "finalExit": 1,
+  "finalTail": [
+    "autoindex: bulk HTTP request timeout: 300s",
+    "xerj-bar [????????????????????????] pct unknown | walk | eta unknown",
+    "xerj-progress phase=walk basis=none pct=unknown items=0/0 bytes=0/0 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0",
+    "autoindex: 312 files (6 MB) under /Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/font-search",
+    "autoindex: ignore rules: skipped 4 files and pruned 4 directories (contents never walked, so not counted); 3 ignore files read",
+    "autoindex: ignore rules:   hidden:dotfile \u2014 4 files, 2 directories pruned",
+    "autoindex: ignore rules:   v2/.gitignore:/dist/ \u2014 1 directory pruned",
+    "autoindex: ignore rules:   v2/.gitignore:/target/ \u2014 1 directory pruned",
+    "xerj-progress phase=hash basis=bytes pct=0.0 items=0/312 bytes=0/6858828 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0",
+    "xerj-progress phase=scan basis=bytes pct=0.0 items=0/168 bytes=0/5890926 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0",
+    "xerj-done ok=false exit=1 reason=aborted wall=0.3s",
+    "error: project new file v2/Cargo.toml: no frozen dataset accepts family docs, group None, and fields [\"end_line\", \"start_line\", \"text\"]; this requires unsupported dataset/schema evolution (use a new prefix)"
+  ],
+  "finalSearchExit": 0,
+  "fallback": "rg/full source reads and pinned Git objects remain authoritative; no alternate prefix, restart or schema edits"
+}
