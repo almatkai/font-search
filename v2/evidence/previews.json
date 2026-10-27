@@ -1,0 +1,36 @@
+{
+  "renderer": "resvg 0.45.1; fontdb initially empty; owned generated TTF loaded only",
+  "comparisons": [
+    {
+      "text": "Sphinx of black quartz, judge my vow.",
+      "sha256": "bf4e62904416ec54780e605dda927435ba4c260c702d582c849674d85458a0a2",
+      "rasterBytes": 32625,
+      "fonts": 1,
+      "height": 300,
+      "occupiedPixels": 7346,
+      "systemFontsLoaded": false,
+      "width": 600
+    },
+    {
+      "text": "Unicode \u00e9 \u00c5 \u4e00",
+      "sha256": "02a9d36f4be1f7fa89025db85cca9efd28342c0de362ea6129545f074e7198e1",
+      "rasterBytes": 27471,
+      "fonts": 1,
+      "height": 300,
+      "occupiedPixels": 6034,
+      "systemFontsLoaded": false,
+      "width": 600
+    },
+    {
+      "text": "Different specimen",
+      "sha256": "b2ad30951da8550587706ab59d2de9e7d8f8a889e3982b3c7862bcbfc277b71a",
+      "rasterBytes": 29223,
+      "fonts": 1,
+      "height": 300,
+      "occupiedPixels": 6451,
+      "systemFontsLoaded": false,
+      "width": 600
+    }
+  ],
+  "nativeInstalledFontGUI": "not-run"
+}

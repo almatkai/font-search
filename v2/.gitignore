@@ -1,0 +1,5 @@
+/.qa/
+/target/
+/dist/
+__pycache__/
+*.pyc

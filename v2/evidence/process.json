@@ -1,0 +1,9 @@
+{
+  "checks": 1226,
+  "canceledOpens": 140,
+  "simultaneousSessions": 128,
+  "frameBytes": 16777216,
+  "nativeOSFontEnumeration": "not-run",
+  "realHostGUI": "not-run",
+  "productionSmoke": "normal owned seeded cache"
+}

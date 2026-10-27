@@ -1,0 +1,28 @@
+{
+  "hostRevision": "ea100cee3f69711de12485ba061950c5fc65258f",
+  "extractedArms": {
+    "native payload forwarding": {
+      "sha256": "aefd19cc17e943420cf162c64abbd27a38de3b541c29ac43d93e3797c2aa3fa1"
+    },
+    "\"host.clipboard.write\"=>{": {
+      "sha256": "a3eb2492c95fd9fc6457e6f71bbacc4f5ee45fad1d97e7c4f8a7d13d36bb8e0c"
+    },
+    "\"host.shell.reveal\"=>": {
+      "sha256": "480250ad61dc7b0f7fa6cc25319f61d8975d8b4ea781419d11663f223984f7d8"
+    },
+    "fn string<'a>": {
+      "sha256": "503ef23645e5b17dd46112e1a31f3a4e3fdf9f27bdd947d898ce4c23b2bb2ceb"
+    },
+    "\"clipboard:write\" => {": {
+      "sha256": "c8e5b3e6ee69dbf499c276ef05b1ac03e737fd9ecafff6aa1e3874bfda28bb7f"
+    },
+    "\"core:platform:reveal-file\" => {": {
+      "sha256": "8e611e16a216850870bb788b92d677fbb8b105015dc434292a563904e9d8bbf2"
+    }
+  },
+  "OSCalls": "stubbed before execution; actual macOS/Windows producers not run",
+  "usedCapabilities": [
+    "clipboard.write",
+    "shell.reveal"
+  ]
+}

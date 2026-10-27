@@ -1,0 +1,36 @@
+[package]
+name = "tezbar-font-search"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+publish = false
+
+[features]
+default = []
+qa-host-macos = ["qa"]
+qa-host-windows = ["qa"]
+qa = ["dep:ttf-parser", "dep:resvg"]
+
+[dependencies]
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust", rev = "e955911f0bf5b558f9d3eb5183df0adc95c22af2", version = "=0.1.1" }
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.145"
+tokio = { version = "=1.48.0", features = ["rt-multi-thread", "macros", "sync", "time", "io-util", "io-std"] }
+base64 = "=0.22.1"
+icu_collator = "=1.5.0"
+icu_locid = "=1.5.0"
+sys-locale = "=0.3.2"
+dirs = "=6.0.0"
+tempfile = "=3.23.0"
+resvg = { version = "=0.45.1", default-features = false, features = ["text"], optional = true }
+ttf-parser = { version = "=0.25.1", optional = true }
+
+[[bin]]
+name = "font-search"
+path = "src/main.rs"
+
+[[bin]]
+name = "font-search-qa"
+path = "src/bin/qa.rs"
+required-features = ["qa"]

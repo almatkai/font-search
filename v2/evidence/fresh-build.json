@@ -1,0 +1,18 @@
+{
+  "toolchain": "1.85.0",
+  "target": "aarch64-apple-darwin",
+  "emptyCargoHome": true,
+  "emptyTarget": true,
+  "sourceCopy": ".qa/fresh-8hh0uupv/source",
+  "httpsSdkRev": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+  "binarySha256": "fd5ba25a57050667629a8b93b706d75ecda705da62af2d3b7100370038c33eca",
+  "protocolInfo": {
+    "commands": [
+      "search-fonts"
+    ],
+    "id": "com.tezbar.native.font-search",
+    "protocol": 1,
+    "sdkVersion": "0.1.1",
+    "version": "0.1.0"
+  }
+}

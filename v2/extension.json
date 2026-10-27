@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.font-search",
+  "slug": "font-search",
+  "name": "Font Search",
+  "version": "0.1.0",
+  "description": "Search locally installed fonts, as displayed in font book.",
+  "icon": "resources/extension-icon.png",
+  "author": "almatkai",
+  "runtime": "rust",
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/font-search",
+  "platforms": ["macOS", "Windows"],
+  "replaces": ["com.tezbar.font-search", "raycast.font-search"],
+  "commands": [{
+    "name": "search-fonts", "title": "Search Fonts", "description": "Search locally installed fonts",
+    "mode": "view", "platforms": ["macOS", "Windows"], "runtime": "rust",
+    "refreshMs": null, "concurrency": "serialize", "timeoutMs": 120000
+  }],
+  "preferences": [{
+    "name": "previewText", "type": "textfield", "required": false, "title": "Preview Text",
+    "description": "Text to use for font preview", "default": "Sphinx of black quartz, judge my vow."
+  }],
+  "capabilities": ["clipboard.write", "shell.reveal"],
+  "artifacts": {},
+  "verification": [
+    {"platform": "macOS", "state": "not-run", "note": "Owned-fixture automated QA only; native installed-font discovery and real GUI acceptance not run."},
+    {"platform": "Windows", "state": "not-run", "note": "Owned-fixture producer contract and cross-check only; Windows native discovery/GUI and MSVC executable not run."}
+  ]
+}
